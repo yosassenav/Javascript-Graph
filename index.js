@@ -4,6 +4,8 @@ var { graph } = require("./src/mock/test");
 var debug;
 debug = new Debug(graph);
 
-debug.printGraph();
+/*graph.nodes.forEach((node) => {
+  debug.printNode(node);
+});*/
 
-//debug.printNode(graph.nodes[1]);
+debug.printAdjacentList();

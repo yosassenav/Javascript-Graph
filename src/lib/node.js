@@ -15,11 +15,11 @@ class Node {
   }
 
   getAdjacent() {
-    return JSON.stringify(this.adjacents);
+    return this.adjacents;
   }
 
   isAdjacent() {
-    if (this.adjacents.length() >= 1) {
+    if (this.adjacents.length >= 1) {
       return true;
     } else {
       return false;

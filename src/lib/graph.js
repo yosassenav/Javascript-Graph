@@ -14,7 +14,7 @@ class Graph {
   }
 
   getNodes() {
-    return JSON.stringify(this.nodes);
+    return this.nodes;
   }
 
   nodeExists(node) {
